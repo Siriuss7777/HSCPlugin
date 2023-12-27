@@ -1,0 +1,6 @@
+name: ChunkPopulator
+version: 1.0
+author: Canjas
+main: ChunkPopulator
+load: STARTUP
+api-version: 1.16

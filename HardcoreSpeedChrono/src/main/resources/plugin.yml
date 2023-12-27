@@ -1,0 +1,15 @@
+name: HardcoreSpeedChrono
+version: '${project.version}'
+main: fr.siriuss7777.hardcorespeedchrono.HardcoreSpeedChrono
+api-version: '1.20'
+author: SiriusS7777
+description: HardcoreSpeedChrono
+commands:
+  hsc:
+    description: HardcoreSpeedChrono
+    usage: /hsc
+    aliases: [hardcorespeedchrono]
+    permission: hsc.use
+    permission-message: You don't have the permission to use this command.
+    executor: fr.siriuss7777.hardcorespeedchrono.commands.HSCCommand
+
